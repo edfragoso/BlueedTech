@@ -30,7 +30,7 @@ console.log();
 //--------------------------------------------
 
 // --> for of <--
-// 
+//
 /*
 console.log(filmes);
 console.log();
@@ -59,8 +59,9 @@ console.log();
 
 */
 
-// --> Laço for in <--
 
+// --> Laço for in <--
+/*
 for (let i in filmes) {
     console.log(i);
 }
@@ -81,6 +82,11 @@ for (let i in filmes) {
     console.log(`O ${Number(i)+1}º filme contém o valor : ${filmes[i]}`);
 }
 console.log();
+*/
+
+//-----------------------------------------------
+
+/*
 
 console.log(' ## Catálogo de Filmes ##');
 let anoFilmes = [];
@@ -111,3 +117,23 @@ for (let i in filmesTotais[0]) {
  }
 console.log();
 //console.log(filmesTotais);
+
+*/
+
+//---------------------------------------------------
+
+// ## Laço of ##
+console.log();
+console.log('## Laço of ##');
+
+const num = [1, 2, 3, 4, 5];
+for (const i of num) { 
+    console.log(i);
+}
+console.log();
+console.log();
+const nomes = ['Gabriel', 'Thiago', 'Márcio', 'Eduarda'];
+for (const i in nomes) {
+    console.log(nomes[i]);
+    console.log([i]);
+ }

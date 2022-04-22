@@ -9,7 +9,8 @@ console.log();
 
 // -->
 
-let filmes = ['Jurassic Park', 'Tubarão', 'O exorcista','Harry Potter', 'Senhor dos Aneis', 'Os Hobbits'];
+let filmes = ['Jurassic Park', 'Tubarão', 'O exorcista',
+    'Harry Potter', 'Senhor dos Aneis', 'Os Hobbits'];
 let filmes2 = [];
 
 /*

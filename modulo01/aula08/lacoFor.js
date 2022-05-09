@@ -132,8 +132,10 @@ for (const i of num) {
 }
 console.log();
 console.log();
+/*
 const nomes = ['Gabriel', 'Thiago', 'Márcio', 'Eduarda'];
 for (const i in nomes) {
     console.log(nomes[i]);
     console.log([i]);
  }
+ */

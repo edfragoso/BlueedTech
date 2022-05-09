@@ -1,0 +1,159 @@
+  ==> A ESCOLHA <==
+
+.........................
+## Variáveis ##
+var Fome = 
+var Dinheiro = 
+var Saude = 
+var energia = 
+var faltaTrab = booleano
+..........................
+
+===>> Inicio <<===
+
+Dr. Mancrazy, um cientista conhecido e respeitado no campo
+de pesquisas genêticas, casado com Ladymarocca e pai de uma 
+linda menininha de 5 anos chamada Frufruca.
+Dr. Mancrazy vêm de muito tempo trabalhando em uma pesquisa 
+revolucionária que promete erradicar uma terrível doença, até então,
+incurável.
+
+## Ciclos ##
+............................................................
+1º dia
+Dr. Mancrazy tem 2 opções:
+ 1ª opção - Ir trabalhar
+                .   --> Fome
+                .       .
+                .       . --> Se comer energia+5 saúde+5
+                .       . --> Senão energia-5 saúde-5          
+                ---> $ +10
+                ---> saúde -5 
+                ---> Energia -5    
+                ---> faltaTrab = 0
+                ** Final do dia **
+                1ª opcão - Ir Pra casa
+                            .
+                            .
+                            -->saúde+5
+                            -->energia+10
+                2ª opcão - Continuar trabalhando? -  Quantas horas?
+                            Se sim
+                                qtd hrs. > 2
+                                    saude-5
+                                    energia-5
+                                    $ +10
+                            seNao
+                 
+ 2ª opção - Ficar em casa olhando televisão
+                .   --> Fome
+                .       .
+                .       . --> Se comer energia+15 saúde+15
+                .       . --> Senão energia-5 saúde-5          
+                ---> $ -10
+                ---> saúde +5 
+                ---> Energia 10
+                ---> faltaTrab++
+...............................................................
+
+Dr. Mancrazy vem trabalhando em sua pesquisa há bastante tempo, 
+já é visível sua aparência cansada, ele precisa dar uma pausa.
+Porém ele está muito próximo de encontrar a cura com seu vírus criado em laborátorio.
+Apenas uma coisa ainda o preocupa, o vírus é facilmente mutável, precisa de sua total atenção.
+
+2º dia
+Dr. Mancrazy tem 3 opções:
+ 1ª opcão - Ir trabalhar
+                1ª opção - Ir trabalhar
+                .       --> Fome
+                .       .
+                .       . --> Se comer energia+5 saúde+5
+                .       . --> Senão energia-5 saúde-5          
+                ---> $ +10
+                ---> saúde -5 
+                ---> Energia -5    
+                ---> faltaTrab = false
+                ** Final do dia **
+                1ª opcão - Ir Pra casa
+                            .
+                            .
+                            -->saúde+5
+                            -->energia+10
+                2ª opcão - Continuar trabalhando? -  Quantas horas?
+                            Se sim
+                                qtd hrs. > 2
+                                    saude-5
+                                    energia-5
+                                    $ +10
+                            seNao
+                
+ 2ª opção - Ficar em casa olhando televisão
+                .       .   --> Fome
+                .       .
+                .       . --> Se comer energia+15 saúde+10
+                .       . --> Senão energia-5 saúde-5          
+                ---> $ -10
+                ---> saúde +5 
+                ---> Energia +5
+                ---> faltaTrab++
+
+ 3ª opção - Ir para a casa de campo descansar
+                .       --> Fome
+                .       .
+                .       . --> Se comer energia+10 saúde+10
+                .       . --> Senão energia-5 saúde-5          
+                ---> $ -10
+                ---> saúde +10 
+                ---> Energia 15
+                ---> faltaTrab++    
+.................................................................
+
+Se faltaTrab >= 2
+    ## Alerta ##
+        A falta do Dr. Mancrazy ao laboratório provoca uma inesperada mutação no vírus.
+.................................................................
+Nessa manhã, sua amada filha amanhece com febre, precisa ir em busca
+de atendimento médico, e sua mãe tem uma importante reunião na escola 
+em que trabalha.
+
+
+...........................................................................
+
+3º dia
+Dr. Mancrazy tem 3 opções:
+ 1ª opção - Ir trabalhar
+ 2ª opção - Ficar em casa olhando televisão
+ 3ª opcão - Ir pra casa de campo descansar
+ 4ª opcão - Levar Frufruca ao médico
+
+
+
+
+>> se faltaTrab == true
+    ## 1º Alerta mundial!!! ##
+        Um desconhecido e mortal vírus surge  matando de forma avassaladora
+         toda espécie de vida no planeta.
+
+>> seNao
+    2º Alerta!!!
+        Dr. Mancrazy alcança o sucesso e sua criação genêticas reconstrói
+         as células doentes do corpo humano. 
+
+Nesse pequeno espaço de tempo ausente do seu laborátorio seu assistente 
+FoolBoy comete um erro, um pequeno discuido em seguir os procedimentos
+de segurança e as recomentações do Dr. Mancrazy.
+
+Esse catastrófico descuido liberou no ar o experimento de pesquisa do Dr. Mancrazy
+um vírus em fase de constantes mutações e evoluções chamado K9000.
+Esse vírus em contato com nossa atmosfera passa por uma nova mutação, agora não mais 
+curar as células doentes, e sim destrui-la de forma muita rápida.
+
+O mundo transforma-se num caos apocalíptico
+FoolBoy incoformado com seu descuido e responsável por a morte de milhões de pessoas
+atira-se do 12º andar do prédio onde fica o centro de pesquisas. 
+
+
+>> se faltaTrab == true
+## 1º Alerta mundial!!! ##
+Um desconhecido e mortal vírus surge  matando de forma avassaladora toda espécie de vida no planeta.
+

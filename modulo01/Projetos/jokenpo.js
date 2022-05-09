@@ -52,7 +52,7 @@ while (init == true) {
         console.log('* [ 1 ] ->PAPEL<-                    *');
         console.log('* [ 2 ] ->TESOURA<-                  *');
         console.log('*                                    *');
-       console.log('***************************************');
+        console.log('**************************************');
         console.log();
         console.log(`${Number(qtdPart) + 1}ª Rodada`);
         while (sair == true) {
